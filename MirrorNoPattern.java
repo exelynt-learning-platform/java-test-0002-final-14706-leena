@@ -2,11 +2,11 @@ public class MirrorNoPattern {
 
     public static void main(String[] args) {
 
-        int rows = 5;
+        int n = 5;
 
-        for (int i = 1; i <= rows; i++) {
+        for (int i = 1; i <= n; i++) {
 
-            for (int space = 1; space <= rows - i; space++) {
+            for (int space = 1; space <= n - i; space++) {
                 System.out.print(" ");
             }
 
